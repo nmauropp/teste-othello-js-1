@@ -1,0 +1,28 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimax Othello</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="game">
+        <div class="game-controls">
+            <button id="restartButton" onmouseover="" style="cursor: pointer;">Reiniciar</button>
+		<div class="turn"></div>
+            <div class="winner"></div>
+        </div>
+        <div class="boardContainer" onmouseover="" style="cursor: pointer;"></div>
+	<div class="scoreTitle">Pontuação
+		<div class="score">
+                	<div class="player1">Humano (pretas): <span id="score1"></span></div>
+                	<div class="player1">IA (brancas): <span id="score2"></span></div>
+            	</div>
+	</div>
+    </div>
+    <script src="js/lib/jquery-3.5.0.min.js"></script>
+    <script src="js/Board.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/IA.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
